@@ -15,4 +15,3 @@
 1. **Forkea este repositorio** (botón Fork arriba a la derecha)
 2. **Abre en GitHub Codespaces** (Code → Codespaces → Create codespace)
 3. **Ejecuta el primer scan automático** (ya se ejecutó al hacer fork)
-4. Pequeño cambio para activar GitHub Actions
