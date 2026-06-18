@@ -17,7 +17,11 @@ jobs:
       - name: Checkout del repositorio
         uses: actions/checkout@v4
         # Descarga el código del repositorio para poder construir la imagen
-
+      - name: Mostrar estructura del proyecto
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y tree
+          tree -a
       - name: Instalar Trivy (recomendado)
         uses: aquasecurity/setup-trivy@v0.2.6
 
